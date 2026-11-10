@@ -1,0 +1,14 @@
+# Downloaded target material stays local (third-party proprietary code/data)
+work/
+*.map
+*.chunk.js
+static/
+*.html
+!docs/**/*.html
+
+# REA evidence bundles embed target code; only summaries under data/rea are tracked
+*.evidence.json
+evidence/
+
+__pycache__/
+*.pyc

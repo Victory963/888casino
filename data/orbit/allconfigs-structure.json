@@ -1,0 +1,603 @@
+{
+ "top_level": {
+  "brandId": {
+   "type": "int",
+   "json_chars": 1
+  },
+  "subBrandId": {
+   "type": "int",
+   "json_chars": 1
+  },
+  "skin": {
+   "type": "str",
+   "json_chars": 11
+  },
+  "skinOverride": {
+   "type": "str",
+   "json_chars": 5
+  },
+  "country": {
+   "type": "str",
+   "json_chars": 5
+  },
+  "sdk": {
+   "type": "object",
+   "keys": 1,
+   "json_chars": 2209044
+  },
+  "orbit": {
+   "type": "object",
+   "keys": 0,
+   "json_chars": 2
+  },
+  "adminConfig": {
+   "type": "object",
+   "keys": 2,
+   "json_chars": 1740480
+  },
+  "userSelectedState": {
+   "type": "str",
+   "json_chars": 2
+  },
+  "useCountryAsState": {
+   "type": "bool",
+   "json_chars": 4
+  }
+ },
+ "sdk.config": {
+  "GeoLocation": {
+   "type": "object",
+   "keys": 6,
+   "json_chars": 414
+  },
+  "Integration": {
+   "type": "object",
+   "keys": 3,
+   "json_chars": 191
+  },
+  "Omg": {
+   "type": "object",
+   "keys": 1,
+   "json_chars": 188
+  },
+  "OAuth2": {
+   "type": "object",
+   "keys": 10,
+   "json_chars": 475
+  },
+  "User": {
+   "type": "object",
+   "keys": 4,
+   "json_chars": 196
+  },
+  "RestrictionRuler": {
+   "type": "object",
+   "keys": 1,
+   "json_chars": 28
+  },
+  "Loyalty": {
+   "type": "object",
+   "keys": 1,
+   "json_chars": 75
+  },
+  "Wallet": {
+   "type": "object",
+   "keys": 1,
+   "json_chars": 42
+  },
+  "Http2": {
+   "type": "object",
+   "keys": 1,
+   "json_chars": 39
+  },
+  "OpenSessions": {
+   "type": "object",
+   "keys": 1,
+   "json_chars": 31
+  },
+  "HybridVersionHandler": {
+   "type": "object",
+   "keys": 6,
+   "json_chars": 158
+  },
+  "GameManager": {
+   "type": "object",
+   "keys": 1,
+   "json_chars": 22
+  },
+  "Game": {
+   "type": "object",
+   "keys": 8,
+   "json_chars": 671
+  },
+  "Logger": {
+   "type": "object",
+   "keys": 1,
+   "json_chars": 20
+  },
+  "Validation": {
+   "type": "object",
+   "keys": 2,
+   "json_chars": 56
+  },
+  "Gnwp": {
+   "type": "object",
+   "keys": 1,
+   "json_chars": 86
+  },
+  "Currency": {
+   "type": "object",
+   "keys": 2,
+   "json_chars": 361
+  },
+  "Skin": {
+   "type": "object",
+   "keys": 26,
+   "json_chars": 1235
+  },
+  "WebPush": {
+   "type": "object",
+   "keys": 3,
+   "json_chars": 356
+  },
+  "Regulation": {
+   "type": "object",
+   "keys": 5,
+   "json_chars": 436
+  },
+  "NetPosition": {
+   "type": "object",
+   "keys": 1,
+   "json_chars": 59
+  },
+  "GameConversion": {
+   "type": "object",
+   "keys": 1,
+   "json_chars": 26
+  },
+  "History": {
+   "type": "object",
+   "keys": 1,
+   "json_chars": 58
+  },
+  "DailyDeal": {
+   "type": "object",
+   "keys": 1,
+   "json_chars": 17
+  },
+  "Analytics": {
+   "type": "object",
+   "keys": 3,
+   "json_chars": 80
+  },
+  "PlayerMessages": {
+   "type": "object",
+   "keys": 3,
+   "json_chars": 619
+  },
+  "CrmSdk": {
+   "type": "object",
+   "keys": 2,
+   "json_chars": 96
+  },
+  "Fallback": {
+   "type": "object",
+   "keys": 1,
+   "json_chars": 54
+  },
+  "CasinoOrbitFeeds": {
+   "type": "object",
+   "keys": 1,
+   "json_chars": 59
+  },
+  "JackpotFeeds": {
+   "type": "object",
+   "keys": 6,
+   "json_chars": 264
+  },
+  "JackpotToasters": {
+   "type": "object",
+   "keys": 3,
+   "json_chars": 133
+  },
+  "FreePlay": {
+   "type": "object",
+   "keys": 1,
+   "json_chars": 24
+  },
+  "ThirdPartyFreePlay": {
+   "type": "object",
+   "keys": 4,
+   "json_chars": 121
+  },
+  "GamesInformation": {
+   "type": "object",
+   "keys": 6,
+   "json_chars": 2152066
+  },
+  "Hybrid": {
+   "type": "object",
+   "keys": 19,
+   "json_chars": 3217
+  },
+  "Restrictions": {
+   "type": "object",
+   "keys": 3,
+   "json_chars": 18096
+  },
+  "Country": {
+   "type": "object",
+   "keys": 7,
+   "json_chars": 218
+  },
+  "WebLogin": {
+   "type": "object",
+   "keys": 2,
+   "json_chars": 92
+  },
+  "StructuredLogging": {
+   "type": "object",
+   "keys": 2,
+   "json_chars": 86
+  },
+  "GamesCorrelation": {
+   "type": "object",
+   "keys": 1,
+   "json_chars": 72
+  },
+  "AbTesting": {
+   "type": "object",
+   "keys": 1,
+   "json_chars": 41
+  },
+  "AiList": {
+   "type": "object",
+   "keys": 3,
+   "json_chars": 298
+  },
+  "ExitGamePopup": {
+   "type": "object",
+   "keys": 1,
+   "json_chars": 21
+  },
+  "IdleRecommendations": {
+   "type": "object",
+   "keys": 4,
+   "json_chars": 119
+  },
+  "Trackjs": {
+   "type": "object",
+   "keys": 3,
+   "json_chars": 95
+  },
+  "Clock": {
+   "type": "object",
+   "keys": 2,
+   "json_chars": 85
+  },
+  "Blueprint": {
+   "type": "object",
+   "keys": 2,
+   "json_chars": 53
+  },
+  "Evolution": {
+   "type": "object",
+   "keys": 2,
+   "json_chars": 55
+  },
+  "NYX": {
+   "type": "object",
+   "keys": 4,
+   "json_chars": 149
+  },
+  "LiveTables": {
+   "type": "object",
+   "keys": 4,
+   "json_chars": 154
+  },
+  "TripleEight": {
+   "type": "object",
+   "keys": 3,
+   "json_chars": 191
+  },
+  "PariPlay": {
+   "type": "object",
+   "keys": 1,
+   "json_chars": 101
+  },
+  "RedTiger": {
+   "type": "object",
+   "keys": 3,
+   "json_chars": 185
+  },
+  "PlayNGo": {
+   "type": "object",
+   "keys": 1,
+   "json_chars": 41
+  },
+  "PlayTech": {
+   "type": "object",
+   "keys": 1,
+   "json_chars": 25
+  },
+  "DomainDetection": {
+   "type": "object",
+   "keys": 2,
+   "json_chars": 50
+  },
+  "AppLauncher": {
+   "type": "object",
+   "keys": 4,
+   "json_chars": 2063
+  },
+  "PlayerMigration": {
+   "type": "object",
+   "keys": 1,
+   "json_chars": 57
+  },
+  "PlayerBurnout": {
+   "type": "object",
+   "keys": 1,
+   "json_chars": 27
+  },
+  "LiveVideoStream": {
+   "type": "object",
+   "keys": 1,
+   "json_chars": 47
+  },
+  "QAEnvironmentPopUp": {
+   "type": "object",
+   "keys": 2,
+   "json_chars": 71
+  },
+  "PlayerOfferings": {
+   "type": "object",
+   "keys": 3,
+   "json_chars": 106
+  },
+  "Filters": {
+   "type": "object",
+   "keys": 1,
+   "json_chars": 28
+  },
+  "GameTiles": {
+   "type": "object",
+   "keys": 1,
+   "json_chars": 22
+  },
+  "OnBoardingTooltips": {
+   "type": "object",
+   "keys": 2,
+   "json_chars": 61
+  },
+  "ExtraProperties": {
+   "type": "object",
+   "keys": 5,
+   "json_chars": 282
+  },
+  "PendingActions": {
+   "type": "object",
+   "keys": 1,
+   "json_chars": 30
+  },
+  "MigratedHistory": {
+   "type": "object",
+   "keys": 1,
+   "json_chars": 39
+  },
+  "GamblingSession": {
+   "type": "object",
+   "keys": 1,
+   "json_chars": 31
+  },
+  "VideoSlides": {
+   "type": "object",
+   "keys": 3,
+   "json_chars": 100
+  },
+  "InGameExperience": {
+   "type": "object",
+   "keys": 1,
+   "json_chars": 20
+  },
+  "WinnerMigration": {
+   "type": "object",
+   "keys": 3,
+   "json_chars": 174
+  },
+  "JackpotBets": {
+   "type": "object",
+   "keys": 4,
+   "json_chars": 110
+  },
+  "JackpotDropStakeSelector": {
+   "type": "object",
+   "keys": 1,
+   "json_chars": 20
+  },
+  "InGameChallenges": {
+   "type": "object",
+   "keys": 1,
+   "json_chars": 30
+  },
+  "PromotionsWidget": {
+   "type": "object",
+   "keys": 1,
+   "json_chars": 20
+  },
+  "JackpotToaster": {
+   "type": "object",
+   "keys": 2,
+   "json_chars": 55
+  },
+  "OpenSearch": {
+   "type": "object",
+   "keys": 1,
+   "json_chars": 16
+  },
+  "StickyPromotionalBanner": {
+   "type": "object",
+   "keys": 1,
+   "json_chars": 20
+  },
+  "WinnersFeed": {
+   "type": "object",
+   "keys": 1,
+   "json_chars": 20
+  },
+  "AiSearch": {
+   "type": "object",
+   "keys": 1,
+   "json_chars": 20
+  },
+  "Leaderboards": {
+   "type": "object",
+   "keys": 1,
+   "json_chars": 20
+  },
+  "Cashdrop": {
+   "type": "object",
+   "keys": 1,
+   "json_chars": 20
+  },
+  "NewHeaderCashierButtons": {
+   "type": "object",
+   "keys": 1,
+   "json_chars": 20
+  },
+  "ArenaBannerTest": {
+   "type": "object",
+   "keys": 1,
+   "json_chars": 20
+  },
+  "Language": {
+   "type": "object",
+   "keys": 4,
+   "json_chars": 21805
+  }
+ },
+ "adminConfig": {
+  "gamesTags": {
+   "type": "object",
+   "keys": 4134,
+   "json_chars": 1592059
+  },
+  "arenas": {
+   "type": "object",
+   "keys": 16,
+   "json_chars": 148394
+  }
+ },
+ "adminConfig.arenas": {
+  "slots": {
+   "type": "object",
+   "keys": 1,
+   "json_chars": 71758
+  },
+  "casinoGames": {
+   "type": "object",
+   "keys": 1,
+   "json_chars": 3823
+  },
+  "liveCasino": {
+   "type": "object",
+   "keys": 1,
+   "json_chars": 155
+  },
+  "homePage": {
+   "type": "object",
+   "keys": 1,
+   "json_chars": 34565
+  },
+  "blackjack": {
+   "type": "object",
+   "keys": 1,
+   "json_chars": 290
+  },
+  "roulette": {
+   "type": "object",
+   "keys": 1,
+   "json_chars": 416
+  },
+  "videoPoker": {
+   "type": "object",
+   "keys": 1,
+   "json_chars": 317
+  },
+  "scratchCards": {
+   "type": "object",
+   "keys": 1,
+   "json_chars": 531
+  },
+  "jackpots": {
+   "type": "object",
+   "keys": 1,
+   "json_chars": 11140
+  },
+  "instantWinGames": {
+   "type": "object",
+   "keys": 1,
+   "json_chars": 159
+  },
+  "exclusive888Games": {
+   "type": "object",
+   "keys": 1,
+   "json_chars": 3972
+  },
+  "virtualSport": {
+   "type": "object",
+   "keys": 1,
+   "json_chars": 690
+  },
+  "newGames": {
+   "type": "object",
+   "keys": 1,
+   "json_chars": 1474
+  },
+  "newLiveCasino": {
+   "type": "object",
+   "keys": 1,
+   "json_chars": 14580
+  },
+  "videoSlidesArena": {
+   "type": "object",
+   "keys": 1,
+   "json_chars": 3579
+  },
+  "newLiveCasinoAB": {
+   "type": "object",
+   "keys": 1,
+   "json_chars": 672
+  }
+ },
+ "sdk.config.GamesInformation": {
+  "uri": {
+   "type": "str",
+   "json_chars": 19
+  },
+  "allowUnfilteredGames": {
+   "type": "bool",
+   "json_chars": 5
+  },
+  "gamesInfo": {
+   "type": "array",
+   "items": 4134,
+   "json_chars": 2147808
+  },
+  "themes": {
+   "type": "object",
+   "keys": 37,
+   "json_chars": 807
+  },
+  "companies": {
+   "type": "object",
+   "keys": 18,
+   "json_chars": 334
+  },
+  "vendors": {
+   "type": "object",
+   "keys": 155,
+   "json_chars": 3003
+  }
+ }
+}

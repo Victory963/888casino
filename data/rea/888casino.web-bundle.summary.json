@@ -1,0 +1,109 @@
+[
+ {
+  "evidence_id": "ev_f162dbd6105016993e15310c644460319ae2100300c1998f24ff221fc13b0583",
+  "operation": "analyze_web_bundle",
+  "target_url": "https://www.888casino.com/",
+  "allowed_origins": [
+   "https://analytics.888casino.com",
+   "https://cgp-cdn.safe-iplay.com",
+   "https://cgp.safe-iplay.com",
+   "https://d6dqrsa2h22h1.cloudfront.net",
+   "https://images.images4us.com",
+   "https://storage.googleapis.com",
+   "https://toaster.images4us.com",
+   "https://www.888casino.com"
+  ],
+  "completeness": {
+   "status": "complete",
+   "parsed_scripts": 11,
+   "parse_failures": 0,
+   "visited_ast_nodes": 439841
+  },
+  "scripts": [
+   {
+    "url": "https://www.888casino.com/",
+    "bytes": 121832,
+    "sha256": "7497dcc8880da07f3039385ccc64e54981d8b56c9f90ec91b2399d423cb5f609"
+   },
+   {
+    "url": "https://analytics.888casino.com/gtm.js?id=GTM-PQ2ZJ7J",
+    "bytes": 666941,
+    "sha256": "1c01bac6e33d8f05d8f3d8b2dfaf733d1d91ec8c7c12312008bc2901f222f8c1"
+   },
+   {
+    "url": "https://www.888casino.com/js/funnel-data-v5.min.js?x=1.2.170",
+    "bytes": 13978,
+    "sha256": "1c641eb0a6ca342823cddc4c23589533a50e108cea0049d29e7a98a76f8bfb4d"
+   },
+   {
+    "url": "https://www.888casino.com/",
+    "bytes": 6403,
+    "sha256": "9dd2df58459c18ad388e58b0e8ccdbafcbb4445ed7689c1f54aadd118757b2c7"
+   },
+   {
+    "url": "https://d6dqrsa2h22h1.cloudfront.net/web-component/v3/banner-slider/banner-slider.esm.js",
+    "bytes": 514,
+    "sha256": "d5c6dec93ff4c6108737bb877691c96be7cc0c47470a3572b3dde95d6202daad"
+   },
+   {
+    "url": "https://analytics.888casino.com/_/service_worker/6al0/sw_iframe.html?origin=https%3A%2F%2Fwww.888casino.com&1p=1",
+    "bytes": 3373,
+    "sha256": "b75081c7478317dcc6ca02d0aa7c618019e4f2a51ecddec061123db1c35cccf2"
+   },
+   {
+    "url": "https://www.888casino.com/",
+    "bytes": 1531,
+    "sha256": "5db45a6e8be58c1d9ccdb7ac0e46fd05eb7a5d70ef22a71fb8e7ccd06be86513"
+   },
+   {
+    "url": "https://d6dqrsa2h22h1.cloudfront.net/web-component/v3/banner-slider/p-DQuL1Twl.js",
+    "bytes": 29,
+    "sha256": "ddf5367f4373ac0beebd7da3539b4e634d1be43409c202132fd86b7521ba070d"
+   },
+   {
+    "url": "https://www.888casino.com/",
+    "bytes": 3634,
+    "sha256": "b9a322792b5c91ed749a5a331fc734716e3221d3196e77886a240a0def87c8ed"
+   },
+   {
+    "url": "https://analytics.888casino.com/gtag/js?id=G-X6C1J411V3&cx=c&gtm=4e6al1&sign=5be31d2c28a0d5286a69fcbe357393f9700e4530f2289b112471bc64c8a42710_20261026",
+    "bytes": 606322,
+    "sha256": "60a70ee6caf527511b53c2e954d43a3f2463dea9efce2d10c8b5c999b6bbc272"
+   },
+   {
+    "url": "https://d6dqrsa2h22h1.cloudfront.net/web-component/v3/banner-slider/p-CQHxgeEf.js",
+    "bytes": 17500,
+    "sha256": "957c730e2a903c293a844e02b3cfdfddaff4b135a388852248a79820b9f7490b"
+   }
+  ],
+  "chunk_edges": [
+   {
+    "specifier": "./p-CQHxgeEf.js",
+    "resolved_url": "https://d6dqrsa2h22h1.cloudfront.net/web-component/v3/banner-slider/p-CQHxgeEf.js"
+   },
+   {
+    "specifier": "./p-DQuL1Twl.js",
+    "resolved_url": "https://d6dqrsa2h22h1.cloudfront.net/web-component/v3/banner-slider/p-DQuL1Twl.js"
+   }
+  ],
+  "routes": [],
+  "endpoints": [
+   "https://www.google.com/ccm/geo",
+   "https://www.google.com/ccm/geo"
+  ],
+  "source_maps": [
+   {
+    "declared_url": "https://www.888casino.com/js/funnel-data-v5.min.js.map",
+    "status": "included"
+   }
+  ],
+  "low_confidence_inferences": 36,
+  "limitations": [
+   "Static bundle findings are observations or bounded inferences; REA does not execute captured JavaScript.",
+   "Bare string arguments of unbound HTTP-method-named calls are low-confidence endpoint candidates; form, translation, storage and other APIs can use the same syntax. URL-shaped findings still do not prove network execution.",
+   "Endpoint candidates are deduplicated by script, value and detector; basis retains only the first matching source coordinate. They are not a complete call-site inventory or a runtime occurrence count. completeness.status=\"complete\" describes examination of captured source, not a call-site census.",
+   "String-built routes and endpoints, encrypted configuration, and server-side behavior may remain unknown.",
+   "Page-declared WebMCP metadata is untrusted and is never registered or invoked as an REA tool."
+  ]
+ }
+]
